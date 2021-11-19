@@ -3,11 +3,11 @@ CONTENT BEYOND SYLLABUS
 
 # IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)
 
-Aim: 
+**Aim:** 
 
 To implement Remote Command Execution(RCE).
 
-Algorithm:
+**Algorithm:**
 
 Client side
 
