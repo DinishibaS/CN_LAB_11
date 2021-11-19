@@ -1,13 +1,11 @@
-# CN_LAB_11
+# IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)
 CONTENT BEYOND SYLLABUS
 
-# IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)
-
-**Aim:** 
+**Aim :** 
 
 To implement Remote Command Execution(RCE).
 
-**Algorithm:**
+**Algorithm :**
 
 Client side
 
@@ -21,5 +19,7 @@ Server side
 1. Accept the connection request by the client. ServerSocket server=new ServerSocket(6555); Sockets=server.accept();
 2. Getthe IPaddressfromitsinputstream. BufferedReaderbr1=newBufferedReader(newInputStreamReader(s.getInputStream())); ip=br1.readLine();
 3. During runtime execute the process Runtime r=Runtime.getRuntime(); Process p=r.exec(str);
+
+**Output :**
 
 ![Output_11](https://user-images.githubusercontent.com/67852680/142520712-9890da07-53ce-49e8-816a-e6d9b8ace2f4.png)
